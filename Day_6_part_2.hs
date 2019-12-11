@@ -1,7 +1,6 @@
 import Data.List
 import Data.List.Split
 import qualified Data.Set as S
-import Debug.Trace
 
 main :: IO ()
 main = interact solution
