@@ -30,7 +30,8 @@ solution = intercalate "," . map show . answer . map read . splitOn ","
 answer :: [Int] -> [Int]
 answer t = output (runMachine
                    (Machine { tape     = t ++ [0..]
-                            , input    = [1]
+                            -- part 1: , input    = [1]
+                            , input    = [2]
                             , output   = []
                             , position = 0
                             , offset   = 0}))
