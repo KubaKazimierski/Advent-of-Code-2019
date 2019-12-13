@@ -1,6 +1,5 @@
 import Data.List
 import Data.List.Split
-import Debug.Trace
 
 data Instruction = ARG2 (Int -> Int -> Int) Mode Mode Mode
                  | CJUMP (Int -> Bool) Mode Mode
