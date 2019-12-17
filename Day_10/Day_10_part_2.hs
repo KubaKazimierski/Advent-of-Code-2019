@@ -1,6 +1,5 @@
 import Data.List
 import qualified Data.Set as S
-import Debug.Trace
 
 type Vector = (Int, Int)
 
